@@ -1,0 +1,235 @@
+{
+	"id": "264ce020-2d81-4e48-a4c8-eb2b51429a0b",
+	"name": "TrelloAPI",
+	"timestamp": "2022-05-24T13:39:58.485Z",
+	"collection_id": "20204715-62c0945c-9cda-40e1-8147-f140f43c9730",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 7,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "25b8c4a1-6572-4ff1-8b39-160aa34d4849",
+			"name": "GET Boards",
+			"url": "https://api.trello.com/1/members/me/boards?key=08de7e576b563f16bb169de89cd075a9&token=3b46768940f80f595adbcb6042315f65687b8f3c5befd77f4fbce1f1355ecebd",
+			"time": 616,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				616
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "79614999-e448-45b4-8b8b-639d4ab5f93e",
+			"name": "CREATE a BOARD",
+			"url": "https://api.trello.com/1/boards/?name=KochamAPI&key=08de7e576b563f16bb169de89cd075a9&token=3b46768940f80f595adbcb6042315f65687b8f3c5befd77f4fbce1f1355ecebd",
+			"time": 328,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				328
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bf4cc532-2f2b-44b4-98f4-cd502370b934",
+			"name": "CREATE a new list ",
+			"url": "https://api.trello.com/1/lists?name=kochamPostmana&idBoard=628ce02db354ed4a2b023990&key=08de7e576b563f16bb169de89cd075a9&token=3b46768940f80f595adbcb6042315f65687b8f3c5befd77f4fbce1f1355ecebd",
+			"time": 215,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				215
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5fa0ca9b-3cbc-4703-8cfc-0a5790b8d0f3",
+			"name": "CREATE a new card",
+			"url": "https://api.trello.com/1/cards?idList=628ce02d6f16095d3a396887&key=08de7e576b563f16bb169de89cd075a9&token=3b46768940f80f595adbcb6042315f65687b8f3c5befd77f4fbce1f1355ecebd&name=toJestMilosc",
+			"time": 298,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				298
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f6f3baf8-c57d-4733-b64e-c3582776f490",
+			"name": "UPDATE a card",
+			"url": "https://api.trello.com/1/cards/628ce02e138032063a42cf00?key=08de7e576b563f16bb169de89cd075a9&token=3b46768940f80f595adbcb6042315f65687b8f3c5befd77f4fbce1f1355ecebd&cardID=628ce02e138032063a42cf00&name=prawdziwaMilosc",
+			"time": 232,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				232
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c7bba928-4da6-45ed-97c5-b2e00a1c5b18",
+			"name": "DELETE a board",
+			"url": "https://api.trello.com/1/boards/628ce02db354ed4a2b023990?key=08de7e576b563f16bb169de89cd075a9&token=3b46768940f80f595adbcb6042315f65687b8f3c5befd77f4fbce1f1355ecebd&boardID=628ce02db354ed4a2b023990",
+			"time": 552,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				552
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b9f31b78-fe89-4a85-990f-d1bdda59dfae",
+			"name": "GET Board After Delete",
+			"url": "https://api.trello.com/1/boards/628ce02db354ed4a2b023990?key=08de7e576b563f16bb169de89cd075a9&token=3b46768940f80f595adbcb6042315f65687b8f3c5befd77f4fbce1f1355ecebd&boardId=628ce02db354ed4a2b023990",
+			"time": 175,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				175
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2416,
+	"collection": {
+		"requests": [
+			{
+				"id": "25b8c4a1-6572-4ff1-8b39-160aa34d4849",
+				"method": "GET"
+			},
+			{
+				"id": "79614999-e448-45b4-8b8b-639d4ab5f93e",
+				"method": "POST"
+			},
+			{
+				"id": "bf4cc532-2f2b-44b4-98f4-cd502370b934",
+				"method": "POST"
+			},
+			{
+				"id": "5fa0ca9b-3cbc-4703-8cfc-0a5790b8d0f3",
+				"method": "POST"
+			},
+			{
+				"id": "f6f3baf8-c57d-4733-b64e-c3582776f490",
+				"method": "PUT"
+			},
+			{
+				"id": "c7bba928-4da6-45ed-97c5-b2e00a1c5b18",
+				"method": "DELETE"
+			},
+			{
+				"id": "b9f31b78-fe89-4a85-990f-d1bdda59dfae",
+				"method": "GET"
+			}
+		]
+	}
+}
